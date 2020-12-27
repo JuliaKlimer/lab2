@@ -1,0 +1,4 @@
+Square: 5, (0,2)
+Square: 8, (6,2)
+Triangle: 2, 2, 2, (0,1)
+Triangle: 1, 3, 9, (0,0)
