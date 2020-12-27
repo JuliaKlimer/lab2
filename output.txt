@@ -1,0 +1,4 @@
+Square: 4, (9,2)
+Square: 9, (0,2)
+Square: 5, (8,3)
+Square: 8, (0,2)
