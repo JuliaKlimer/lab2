@@ -9,8 +9,8 @@ public class main {
         System.out.println(sq2);
         System.out.println(sq1.compareTo(sq2));
         System.out.println("Divided side: " + sq1.divideside(2));
-        System.out.println("Increment of x0: " + sq1.incrementx0());
-        System.out.println("Increment of y0: " + sq1.incrementy0());
+        System.out.println("Increment of x0: " + sq1.incrementX0());
+        System.out.println("Increment of y0: " + sq1.incrementY0());
         //task 4
         squares s0 = new squares();
         for (int i = 0; i<=3; i++){
@@ -21,16 +21,16 @@ public class main {
             y0 = rnd.nextInt(10);
             try {
                 square s = new square(side,x0,y0);
-                s0.addsquare(s);
+                s0.addSquare(s);
             }
             catch (Exception e){
                 square s = new square(side,x0,y0);
-                s0.addsquare(s);
+                s0.addSquare(s);
             }
         }
-        s0.savetofile();
-        s0.searchzero();
-        s0.searchminside();
-        s0.calculateaverageside();
+        s0.saveToFile();
+        s0.searchZero();
+        s0.searchMinSide();
+        s0.calculateAverageSide();
     }
 }

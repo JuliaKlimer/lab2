@@ -51,6 +51,6 @@ public class square implements Comparable<square>{
         this.side /= div;
         return this.getSide();
     }
-    public int incrementx0 (){ return ++this.x0; }
-    public int incrementy0 (){ return ++this.y0; }
+    public int incrementX0 (){ return ++this.x0; }
+    public int incrementY0 (){ return ++this.y0; }
 }
